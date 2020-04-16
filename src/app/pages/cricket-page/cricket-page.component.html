@@ -1,0 +1,11 @@
+<p>cricket-page works!</p>
+<div class="list-menu">
+  <ul class="list-menu-item" *ngFor="let cricketer of cricketlist">
+    <li>{{ cricketer.name }}</li>
+    <li>{{ cricketer.jdate }}</li>
+    <li>{{ cricketer.bdate }}</li>
+  </ul>
+</div>
+<button routerLink="./add-cricket" class="circle-add-button button is-primary">
+  add player
+</button>
